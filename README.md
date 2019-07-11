@@ -11,7 +11,7 @@ npm start
 ```
 
 Points to be noted:
-* App is designed to responsive on desktop and compatible in various mobile and tabs.
+* App is designed to be responsive on desktop and compatible in various mobile and tablet devices.
 * I have kept the focus towards the output of the assignment as described in pdf.
 * Used GraphQL with Apollo/Client defining a role oriented folder structure.
 * I have enabled standard ESLint.
