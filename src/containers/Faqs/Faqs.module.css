@@ -1,0 +1,99 @@
+.Container{
+  position: relative;
+  color: white;
+  height: calc(100vh - 56px);
+  width: 100%;
+  padding: 1.2em 0 1.2em 1.2em;
+}
+
+.LeftPanel{
+  float: left;
+  width: 70%;
+}
+
+.RightPanel{
+  float: left;
+  width: 30%;
+}
+
+.List{
+  list-style: none;
+  cursor: pointer;
+  margin: 0 !important;
+  padding-inline-start: 1.2em;
+  padding-inline-end: 2.4em;
+}
+
+.ListItem{
+  padding: 1.1em;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 0.05em solid white;
+}
+
+.ActiveListItem{
+  padding: 1.1em;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 0.1em solid red !important;
+}
+
+.Title{
+  padding: 1.1em;
+  font-weight: bold;
+  font-size: 1.2em;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-bottom: 0.05em solid white;
+}
+
+.Body{
+  padding: 1.1em;
+  font-size: 1.2em;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.Start{
+  padding: 2.2em;
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.MobileOnly{
+  display: none;
+}
+
+@media (max-width: 499px) {
+  .LeftPanel{
+    display: none;
+  }
+  .RightPanel{
+    display: none;
+  }
+  .MobileOnly{
+    display: block;
+  }
+  .MobileList{
+    list-style: none;
+    cursor: pointer;
+    margin: 0 !important;
+    padding-inline-start: 0em;
+    padding-inline-end: 2.4em;
+  }
+  .MobileListItem{
+    padding: 1.1em;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .MobileTitle{
+    padding: 1.1em;
+    font-weight: bold;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-bottom: 0.05em solid white;
+  }
+  .MobileBody{
+    padding: 1.1em;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.3);
+    border-bottom: 0.05em solid red;
+  }
+}
